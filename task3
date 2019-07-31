@@ -1,0 +1,10 @@
+s=input()
+s1=s.split()
+l=[]
+for i in s1:
+   l.append(len(i))
+   n=max(l)
+   b=l.index(n)
+   print(s1[b])
+   
+   
