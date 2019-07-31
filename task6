@@ -1,0 +1,10 @@
+a=int(input("give the first side of the triangle"))
+b=int(input("give the second side of the triangle"))
+c=int(input("give the third side of the triangle"))
+if a==b==c:
+    print("equilateral triangle")
+elif a==b or b==c or c==a :
+    print("isoceles triangle")
+else:
+    print("scalene triangle")
+    
