@@ -1,0 +1,5 @@
+monthname=input("name the month :")
+if monthname=="april":
+    print("the no of days are 30")
+else:
+    print("invalid month name")
