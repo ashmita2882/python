@@ -1,0 +1,4 @@
+a=input("enter the three values");
+n=3;
+median=(n+1)/2;
+print("the median of the series is =",median);
